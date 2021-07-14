@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+           <style>
+    body{
+                background-image: url('h1.jpeg');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;  
+                color:white;
+
+            }
+    
+    
+    .input
+    {
+         border-radius: 25px; 
+                border: 2px ; 
+                padding: 8px; 
+                width: 10em 
+               
+        
+    }
+    .button{
+                    width: 5em;
+                    border-radius:25px; 
+                    border:2px ;
+                    padding:12px;
+                    color: whitesmoke;
+                    background:burlywood;
+                    decoration:non;
+                    
+
+                     
+            }
+            
+    
+   
+</style>
+        
+        
+    </head>
+<body>
+<form action="updateimage" method="post">
+<h1>update a hotel image</h1>
+
+Enter ID <input class="input" type="number" name="ID"><br><br>
+<input  type="file" name="image"><br><br>
+<input class="button" type="submit" name="submit" value="update">
+</form>
+
+</body>
+</html>
